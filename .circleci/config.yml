@@ -9,4 +9,3 @@ workflows:
           image-name: nodefun
           builder: cnbs/sample-builder:alpine
           buildpack: buildpacks/hello-world
-          env-vars: FOO=BAR;NAME=bilbo;COLOR=red and green;URL=https://www.google.com;SINGLE
