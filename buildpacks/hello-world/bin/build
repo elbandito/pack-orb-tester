@@ -10,11 +10,11 @@ plan_path=$3
 
 # ENV VARS
 echo "---- BEGIN ENV VARS ----"
-echo "$URL"
-echo "$NAME"
-echo "$COLOR"
-echo "$FOO"
-echo "$SINGLE"
+echo "URL=$URL"
+echo "NAME=$NAME"
+echo "COLOR=$COLOR"
+echo "FOO=$FOO"
+echo "SINGLE=$SINGLE"
 echo "---- END ENV VARS ----"
 echo "     env_dir: ${env_dir}"
 echo "     env vars:"
